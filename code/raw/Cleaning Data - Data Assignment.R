@@ -9,18 +9,18 @@
 
 # 0. Preliminary work
 
-# set wd as base directory (one level up from "UCI HAR DAtaset"))
+# set working dir as base directory (one level up from "UCI HAR DAtaset"))
 # adapt this to your file system if you want to run the code
 
-wd <- "C:\\Users\\massimo\\Google Drive\\Data Science\\03 - Getting and Cleaning Data\\Peer Assignment\\code"
-setwd(wd)
+ wd <- "C:\\Users\\massimo\\Google Drive\\Data Science\\03 - Getting and Cleaning Data\\Peer Assignment\\GetCleanDataPA"
+ setwd(wd)
 
 # manually created dir. Contains manually provided files and the final dataset.
-DatDir      <- paste(wd,"/../data", sep="")
+DatDir      <- paste(wd,"/data", sep="")
 
-TrainDir    <- paste(wd,"/../UCI HAR Dataset/train", sep="")
-TestDir     <- paste(wd,"/../UCI HAR Dataset/test", sep="")
-BaseDir     <- paste(wd,"/../UCI HAR Dataset", sep="")
+TrainDir    <- paste(wd,"/UCI HAR Dataset/train", sep="")
+TestDir     <- paste(wd,"/UCI HAR Dataset/test", sep="")
+BaseDir     <- paste(wd,"/UCI HAR Dataset", sep="")
 
 ActivityFile<- "activity_labels.txt"
 
