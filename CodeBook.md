@@ -9,9 +9,12 @@ Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Università degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
+
 activityrecognition@smartlab.ws
+
 www.smartlab.ws
 
+( *Variable names have been altered for readability* )
 
 
 ## Variables
@@ -90,7 +93,8 @@ www.smartlab.ws
 * Angle_tBodyGyroMean-GravityMean
 * Angle_tBodyGyroJerkMean-GravityMean
 
-## transformations
+## Transformations
 All data are extracted from the original data set. Train and test have been merged.
 Activity and Subject have been read from their respective file and merged.
-The variable are the mean by Activity, Subject
+
+Mean by Activity, Subject have been used to summarize the data
