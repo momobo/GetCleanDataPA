@@ -33,7 +33,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 
 
-## How to proceed
+## How to run the script
 
 - Clone the project
 - set your R working directory in the base directory of the project
@@ -61,7 +61,7 @@ New and clean columname are provided in the (manually provided) file "names.txt"
 
 Data are read in test and train data set. Ausiliary files are also read (Activities, Subjects, descriptive column names)
 
-### Merge test and training. Add descriptive activity, Subjects.
+### Merge test and training. Add descriptive activity names and subjects.
 
 Test and training data are merged as prescribed. Activities and Subjects are added ( *descriptive activitiy names are addes with a merge* ). A column "Origin" is added to label test and train data
 
@@ -79,4 +79,10 @@ A simple group by activity, subject is done using the package *data.table*
 
 ### Result data set
 
-The resulting dataset is written in the *data* subdirectory in csv format The name of the file is "SummarizedTidy.csv"
+The resulting dataset is written in the *data* subdirectory in csv format The name of the file is "SummarizedTidy.txt"
+
+### Other implementation notes
+
+Due to the limitation of the coursera platform, that doesn't accept csv, the result file is named with the extension txt but is really a csv.
+
+The script has been tested on windows, with R version 3.0.2 / 3.0.3.
