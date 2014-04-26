@@ -37,13 +37,13 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 - Clone the project
 - set your R working directory in the base directory of the project
-- run the script in the (base)/code/raw
- the script name is *"Cleaning Data - Data Assignment.R"*
+- run the script in the base dir
+ the script name is *"run_analysis.R"*
 
 ```
 wd <- "<your base github dir>\\GetCleanDataPA"
 setwd(wd)
-source("code\\raw\\Cleaning Data - Data Assignment.R")
+source("run_analysis.R")
 
 ```
 

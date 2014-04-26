@@ -25,8 +25,10 @@ BaseDir     <- paste(wd,"/UCI HAR Dataset", sep="")
 ActivityFile<- "activity_labels.txt"
 
 NamesFile   <- "names.txt"
-Result      <- "SummarizedTidy.csv"
-
+# Result      <- "SummarizedTidy.csv"
+ # coursera does not accept csv
+Result      <- "SummarizedTidy.txt"
+ 
 
 TestFile    <- "X_test.txt" 
 TestActFile <- "y_test.txt" 
